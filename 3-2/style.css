@@ -1,0 +1,42 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    margin-left: 10px;
+    transition: 0.5s all linear;
+}
+
+a:hover{
+color: tomato;
+}
+
+ul{
+    width: 50%;
+    margin: 100px;
+}
+
+ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.menu li a{
+    margin: 0;
+    font-size: 20px;
+}
+
+.line{
+    background-color: tomato;
+    height: 3px;
+    width: 0;
+    transition: 0.5s all linear;
+}
+
+.menu li:hover .line{
+    width: 100%;
+}

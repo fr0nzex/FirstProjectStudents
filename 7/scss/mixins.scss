@@ -1,0 +1,5 @@
+@mixin sizeJustifyContent($size, $justify) {
+    width: $size;
+    display: flex;
+    justify-content: $justify;
+}

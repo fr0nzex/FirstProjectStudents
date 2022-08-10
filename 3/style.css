@@ -1,0 +1,44 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+h1{
+    background-color: green;
+}
+
+p{
+    width: 350px;
+    border: 1px solid red;
+    padding: 20px 40px 20px 40px;
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+    /* margin-bottom: 100px */
+    margin: 0 6.5%;
+    display: inline-block ;
+}
+
+b{
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 30px;
+    border: 2px solid red;
+    height: 300px;
+    width: 600px;
+    padding: 20px;
+}
+
+.first_paragraph{
+    box-sizing: content-box;
+    line-height: 30px;
+     text-transform: capitalize;
+    /* uppercase, lowercase */
+}
+
+.second_paragraph{
+box-sizing: border-box;
+letter-spacing: 3px;
+}
+

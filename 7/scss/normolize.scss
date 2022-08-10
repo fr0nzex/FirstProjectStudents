@@ -1,0 +1,20 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+ul {
+    li {
+        list-style: none;
+    }
+}
+
+header {
+    background-color: $choco-color;
+
+    padding: {
+        top: 20px;
+        bottom: 20px;
+    }
+}
